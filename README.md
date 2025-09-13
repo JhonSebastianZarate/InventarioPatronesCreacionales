@@ -15,4 +15,4 @@ El propósito de este proyecto es demostrar la correcta aplicación de los patro
 - **Factory Method** → Creación de objetos sin exponer la lógica al cliente.
 - **Abstract Factory** → Familias de objetos relacionados.
 
-## 📂 Estructura del repositorio
+## Estructura del repositorio
