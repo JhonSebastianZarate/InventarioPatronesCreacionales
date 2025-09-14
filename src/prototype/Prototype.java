@@ -1,5 +1,6 @@
 package prototype;
 
 public interface Prototype {
-    Prototype clone();
+    Prototype clone(); 
+    String getName();
 }
