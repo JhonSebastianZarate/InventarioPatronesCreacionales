@@ -3,11 +3,11 @@ package prototype;
 public class ClientPrototype {
     public static void main(String[] args) {
         // Crear prototipo 1
-        ConcretePrototype prototype1 = new ConcretePrototype("Ejemplo1");
+        ConcretePrototype prototype1 = new ConcretePrototype("Ejemplo1", 1);
         ConcretePrototype clone1 = (ConcretePrototype) prototype1.clone();
 
         // Crear prototipo 2
-        ConcretePrototype2 prototype2 = new ConcretePrototype2("Rojo");
+        ConcretePrototype prototype2 = new ConcretePrototype("Ejemplo2", 2);
         ConcretePrototype2 clone2 = (ConcretePrototype2) prototype2.clone();
 
         // Mostrar resultados
